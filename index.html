@@ -56,6 +56,25 @@ margin: 0 auto;
 transform: scale(1.1); 
 }
 
+.gtco-logo-area {
+    overflow: hidden;
+}
+
+.gtco-logo-area .container .row {
+    display: flex;
+    animation: slide-up 5s infinite alternate;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+
     </style>
 </head>
 <body>
@@ -337,6 +356,7 @@ transform: scale(1.1);
 <div class="container-fluid gtco-logo-area" style="margin-top: 150px;">
     <div class="container">
         <div class="row">
+		
             <div class="col"><img src="images/adobe.svg" height="100" width="150" class="img-fluid" alt=""></div>
 <div class="col"><img src="images/adobe-illustrator.svg" height="100" width="150" class="img-fluid" alt=""></div>
 <div class="col"><img src="images/adobe-xd.svg" height="100" width="150" class="img-fluid" alt=""></div>
