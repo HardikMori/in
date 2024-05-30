@@ -74,6 +74,20 @@ transform: scale(1.1);
     }
 }
 
+	     #logo-scroll {
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-bottom: 20px;
+        }
+
+        #logo-scroll .col {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        #logo-scroll .col:last-child {
+            margin-right: 0;
+        }
 
     </style>
 </head>
@@ -355,7 +369,7 @@ transform: scale(1.1);
 
 <div class="container-fluid gtco-logo-area" style="margin-top: 150px;">
     <div class="container">
-        <div class="row">
+        <div class="row" id="logo-scroll">
 		
             <div class="col"><img src="images/adobe.svg" height="100" width="150" class="img-fluid" alt=""></div>
 <div class="col"><img src="images/adobe-illustrator.svg" height="100" width="150" class="img-fluid" alt=""></div>
